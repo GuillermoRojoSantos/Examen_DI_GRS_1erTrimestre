@@ -1,4 +1,4 @@
-package com.examen.examen_di_grs_1ertrimestre;
+package com.examen.examenDiGrsPrimerertrimestre;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

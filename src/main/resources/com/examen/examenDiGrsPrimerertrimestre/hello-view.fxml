@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.examen.examen_di_grs_1ertrimestre.formController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.examen.examenDiGrsPrimerertrimestre.formController">
    <top>
       <VBox alignment="TOP_CENTER" prefHeight="117.0" prefWidth="1277.0" BorderPane.alignment="CENTER">
          <children>
@@ -96,8 +96,8 @@
                      </GridPane.margin>
                   </Text>
                   <TextField fx:id="fieldNombre" prefHeight="25.0" prefWidth="103.0" GridPane.columnIndex="1" />
-                  <Spinner fx:id="spinnerEdad" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <Spinner fx:id="spinnerAltura" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Spinner fx:id="spinnerEdad" editable="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Spinner fx:id="spinnerAltura" editable="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actividad" textAlignment="CENTER" GridPane.rowIndex="5">
                      <GridPane.margin>
                         <Insets left="16.0" />
@@ -107,7 +107,7 @@
                      </font>
                   </Text>
                   <ComboBox fx:id="comboSexo" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Spinner fx:id="spinnerPeso" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Spinner fx:id="spinnerPeso" editable="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                   <ComboBox fx:id="comboActividad" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                </children>
             </GridPane>

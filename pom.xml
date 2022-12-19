@@ -81,7 +81,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.examen.examen_di_grs_1ertrimestre/com.examen.examen_di_grs_1ertrimestre.HelloApplication
+                                com.examen.examen_di_grs_1ertrimestre/com.examen.examenDiGrsPrimerertrimestre.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

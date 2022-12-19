@@ -6,6 +6,6 @@ module com.examen.examen_di_grs_1ertrimestre {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.examen.examen_di_grs_1ertrimestre to javafx.fxml;
-    exports com.examen.examen_di_grs_1ertrimestre;
+    opens com.examen.examenDiGrsPrimerertrimestre to javafx.fxml;
+    exports com.examen.examenDiGrsPrimerertrimestre;
 }
