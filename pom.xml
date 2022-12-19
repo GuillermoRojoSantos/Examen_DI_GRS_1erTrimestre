@@ -81,4 +81,18 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.examen.examen_di_grs_1ertrimestre/com.examen.examen_di_grs_1ertrimestre.HelloApplic
+                                com.examen.examen_di_grs_1ertrimestre/com.examen.examen_di_grs_1ertrimestre.HelloApplication
+                            </mainClass>
+                            <launcher>app</launcher>
+                            <jlinkZipName>app</jlinkZipName>
+                            <jlinkImageName>app</jlinkImageName>
+                            <noManPages>true</noManPages>
+                            <stripDebug>true</stripDebug>
+                            <noHeaderFiles>true</noHeaderFiles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
